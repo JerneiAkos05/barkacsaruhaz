@@ -1,3 +1,9 @@
+*:not(input):not(textarea) {
+    -webkit-user-select: none !important;
+            user-select: none !important;
+          outline-style: none !important;
+  }
+
 .home{
     background-image: url('../image/woodbackground.jpg') !important;
 }
@@ -13,4 +19,8 @@ th, td{
 
 footer {
     background-color: #bd7e4a;
+}
+
+.cim {
+    background-color: #bd7e4a !important;
 }
