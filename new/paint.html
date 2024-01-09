@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../style/style.css">
     <title>Festékek</title>
 </head>
 <body>
@@ -33,13 +35,37 @@
             </div>
           </nav>
     </header>
-    <table>
-        <thead>
-            <th>Név</th>
-            <th>Gyártó</th>
-            <th>Felhasználás</th>
-            <th>Mennyiség</th>
-        </thead>
-    </table>
+
+    <div class="container">
+        <div class="modal" tabindex="-1" id="burgundi">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Burgundi vörös</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <img src="" alt="latte" class="img-fluid">
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Lorem ipsum</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárás</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
