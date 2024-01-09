@@ -1,3 +1,16 @@
-#home{
+.home{
     background-image: url('../image/woodbackground.jpg') !important;
+}
+
+header {
+    background-color: #bd7e4a;
+}
+
+th, td{
+    background-color: #bd7e4a !important;
+    border-color: black;
+}
+
+footer {
+    background-color: #bd7e4a;
 }
