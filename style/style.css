@@ -30,3 +30,16 @@ footer {
     color: black;
     border: 1px solid black;
 }
+.card{
+    background-color: #bd7e4a;
+}
+.modal-body{
+    background-color: #bd7e4a !important;
+}
+.modal-header, .modal-footer{
+    background-color: #bd7e4a;
+}
+button{
+    background-color: red;
+    color: white;
+}
