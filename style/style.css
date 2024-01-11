@@ -38,8 +38,6 @@ footer {
 }
 .modal-header, .modal-footer{
     background-color: #bd7e4a;
-}
-button{
-    background-color: red;
-    color: white;
+    border-bottom:#bd7e4a solid;
+    border-top: #bd7e4a solid;
 }
