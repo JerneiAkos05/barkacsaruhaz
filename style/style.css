@@ -24,3 +24,9 @@ footer {
 .cim {
     background-color: #bd7e4a !important;
 }
+
+.brown {
+    background-color: #bd7e4a;
+    color: black;
+    border: 1px solid black;
+}
