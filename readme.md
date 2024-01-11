@@ -1,3 +1,3 @@
 ### DIY Barkácsáruház
 
-### SElmeczi Csaba és Jernei Ákos munkája
+### Selmeczi Csaba és Jernei Ákos munkája
