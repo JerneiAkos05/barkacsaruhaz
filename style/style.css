@@ -42,3 +42,7 @@ footer {
     border-bottom:#bd7e4a solid;
     border-top: #bd7e4a solid;
 }
+.blog-img{
+    border: 1px solid #bd7e4a;
+    border-radius: 5px;
+}
